@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
- <link rel="stylesheet" href="styles/style.css"/>
-  <title>CSS3 Transitions & Animations + JavaScript</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bringing Web Pages to Life ✨</title>
+  <link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
 </head>
 <body>
   <header>
@@ -15,35 +15,34 @@
 
   <main>
     <!-- Part 1: CSS Animations -->
-    <section id="css-demo">
+    <section id="css-demo" aria-label="CSS Transitions and Animations">
       <h2>🎨 CSS Transitions & Animations</h2>
-      <button class="animated-btn">Hover Me!</button>
-      
-      <div class="box"></div>
-
-      <div class="pulse-box"></div>
+      <button class="animated-btn" aria-label="Hover to see animation">Hover Me!</button>
+      <div class="box" aria-label="Color transition box"></div>
+      <div class="pulse-box" aria-label="Pulsing animation box"></div>
     </section>
 
     <!-- Part 2: JavaScript Functions -->
-    <section id="js-demo">
+    <section id="js-demo" aria-label="JavaScript Functions">
       <h2>⚡ JavaScript Functions</h2>
-      <button id="calcBtn">Calculate Area</button>
-      <p id="calcResult"></p>
+      <button id="calcBtn" aria-label="Calculate area">Calculate Area</button>
+      <p id="calcResult" aria-live="polite"></p>
     </section>
 
     <!-- Part 3: Combining CSS + JS -->
-    <section id="combo-demo">
+    <section id="combo-demo" aria-label="CSS and JavaScript Combined">
       <h2>🎬 CSS + JS Combined</h2>
-      <button id="animateBoxBtn">Animate the Box</button>
-
-      <div class="animated-box"></div>
+      <button id="animateBoxBtn" aria-label="Trigger box animation">Animate the Box</button>
+      <div class="animated-box" aria-label="Animated box"></div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 - Built with ❤️ by Ezna</p>
+    <p>© 2025 — Built with ❤️ by Ezna</p>
   </footer>
-
-  <script src="script.js"></script>
+  <script src="script.js" defer></script                               
 </body>
 </html>
+
+
+
